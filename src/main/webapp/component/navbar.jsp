@@ -43,7 +43,7 @@
 
 				<c:if test="${not empty userName }">
 					<li class="nav-item"><a class="nav-link" href="writeBlog.jsp">
-							<i class="fa-solid fa-feather"></i> Write Blog
+							<i class="fa-solid fa-feather"></i>
 					</a></li>
 
 					<li class="nav-item"><a class="nav-link"

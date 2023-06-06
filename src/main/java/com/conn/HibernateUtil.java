@@ -11,6 +11,7 @@ import org.hibernate.cfg.Configuration;
 import org.hibernate.cfg.Environment;
 
 import com.entity.Booking;
+import com.entity.User;
  
 
 public class HibernateUtil {
@@ -33,6 +34,7 @@ public class HibernateUtil {
 
 			configuration.setProperties(properties);
 			configuration.addAnnotatedClass(Booking.class);
+			configuration.addAnnotatedClass(User.class);
 			 
   
 			org.hibernate.service.ServiceRegistry serviceRegistry = new StandardServiceRegistryBuilder()
